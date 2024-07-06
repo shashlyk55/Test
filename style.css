@@ -75,7 +75,6 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-
 }
 #circle{
     width: 44px;
@@ -92,4 +91,85 @@ body{
     border-radius: 44px;
 }
 
-
+@media (max-width: 1440px) and (min-width: 801px){
+    #computer_img{
+        width: 680px;
+    }
+    #block{
+        gap: 48px
+    }
+    #demo-version_header{
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 41.6px;
+    }
+}
+@media (max-width: 800px) and (min-width: 300px){
+    #block{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        margin: 20px;
+        gap: 24px;
+    }
+    #demo-version_div{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 40px;
+        gap: 3vh;
+    }
+    #demo-version_header{
+        width: 100%;
+        font-size: 20px;
+        line-height: 32px;
+    }
+    #demo-version_p{
+        width: 100%;
+        font-size: 15px;
+        line-height: 24px;
+    }
+    #try_btn{
+        width: 279px;
+        height: 56px;
+        font-size: 15px;
+        line-height: 24px;
+    }
+    #circle{
+        width: 34px;
+        height: 34px;
+    }
+    #arrow_img{
+        width: 20px;
+        height: 20px;
+    }
+    #computer_div{
+        height: auto;
+        width: 100%;
+        overflow: visible;
+    }
+    #computer_img{
+        height: auto;
+        width: 100%;
+    }
+}
+@media (max-width: 480px){
+    #demo-version_div{
+        padding: 16px;
+    }
+    #demo-version_header{
+        width: 100%;
+        font-size: 17px;
+        line-height: 27.2px;
+    }
+    #demo-version_p{
+        width: 100%;
+        font-size: 13px;
+        line-height: 20.8px;
+    }
+    #try_btn{
+        width: 100%;
+        height: 56px;
+        font-size: 15px;
+        line-height: 24px;
+    }
+}
