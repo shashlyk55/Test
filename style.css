@@ -8,12 +8,12 @@ body{
 #block{
     margin: 40px;
     height: 455px;
-    padding: 0 0 0 72px;
     border-radius: 10px;
     background-color: #EBF0FA;
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap: nowrap;
     gap: 190px;
 }
 #computer_div{
@@ -24,17 +24,18 @@ body{
     width: auto;
     overflow: hidden;
     border-radius: 0 10px 10px 0;
+    flex-grow: 0;
 }
 #computer_img{
     height: auto;
     width: 910px;
-    display: block;
 }
 #demo-version_div{
     display: flex;
     flex-direction: column;
     width: 538px;
     gap: 64px;
+    padding: 0 0 0 72px;
 }
 #text_div{
     display: flex;
