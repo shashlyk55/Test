@@ -112,9 +112,6 @@ body{
         margin: 20px;
         gap: 24px;
     }
-    #computer_img{
-        border-radius: 0 0 10px 10px;
-    }
     #demo-version_div{
         width: 100%;
         box-sizing: border-box;
@@ -153,6 +150,7 @@ body{
     #computer_img{
         height: auto;
         width: 100%;
+        border-radius: 0 0 10px 10px;
     }
 }
 @media (max-width: 480px){
