@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Title</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/modal_window_styles.css">
 </head>
 <body>
     <div id="block">
@@ -23,6 +24,38 @@
             <img id="computer_img" src="material/computer.png">
         </div>
     </div>
-    <script src="script.js"></script>
+
+    <div id="overlay"></div>
+
+    <div id="modal_window">
+        <div id="close_div">
+            <div id="close_btn" class="close_btn">
+                <span>
+                    &times;
+                </span>
+            </div>
+        </div>
+        <div id="content_div">
+            <h3>Войти в систему</h3>
+            <div id="enter_div">
+                <div id="input_user_data">
+                    <div id="input_fields">
+                        <input type="text" placeholder="Email/Телефон"/>
+                        <input type="password" placeholder="Пароль"/>
+                    </div>
+                    <label id="remember_pass_label">
+                        <input type="checkbox" name="forgot_password" id="remember_pass_checkbox">
+                        Запомнить пароль
+                    </label>
+                    <a id="recover_a">Восстановить</a>
+                </div>
+                <div id="buttons">
+                    <button id="sign_in_btn">Войти</button>
+                    <button id="log_in_btn">Зарегестрироваться</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
