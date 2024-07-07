@@ -153,6 +153,7 @@ body{
     #computer_img{
         height: auto;
         width: 100%;
+        border-radius: 0 0 10px 10px;
     }
 }
 @media (max-width: 480px){
